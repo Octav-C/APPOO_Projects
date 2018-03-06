@@ -1,9 +1,9 @@
-package lab1;
+package main;
 
 public class Juridic_Person extends Person {
-	double fee = 0.05;
-	Juridic_Person (String name, String surname, int age){
-		super(name, surname, age);
+	private double fee = 0.05;
+	Juridic_Person (String first_name, String last_name,long account_num, int age, String password){
+		super(first_name, last_name, account_num,age,password);
 	}
 	void setFee (double fee) {
 		this.fee = fee;
